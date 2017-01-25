@@ -9,7 +9,7 @@ app.listen(3000,function(){
 
 app.get('/',function(req,res){
 	//do something
-	res.send('Hello world');
-       res.sendFile('/Users/azim/Documents/nodejsWorkSpace/meanCRUD' + '/index.html')
+	//res.send('Hello world');
+       res.sendFile(__dirname + '/index.html')
 	
 })
