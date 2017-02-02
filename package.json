@@ -18,8 +18,10 @@
   "homepage": "https://github.com/azimshaik/meanCRUD",
   "dependencies": {
     "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
     "express": "^4.14.0",
-    "mongodb": "^2.2.22"
+    "mongodb": "^2.2.22",
+    "mongojs": "^2.4.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
