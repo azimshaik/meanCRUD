@@ -12,6 +12,8 @@ var app = express();
 // view engine 
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','ejs');
+//https://expressjs.com/en/api.html#app.engine
+//to map the EJS template engine to “.html” files:
 app.engine('html',require('ejs').renderFile);
 
 //Set Static folder
